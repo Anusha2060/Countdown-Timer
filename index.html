@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../CSS/clock.css" />
+    <title>CLOCK</title>
+  </head>
+  <body>
+    <div class="mainwrapper">
+      <div class="box" id="Id">
+        <div class="timer">
+          <h1 id="hr">00</h1>
+          :
+          <h1 id="min">00</h1>
+          :
+          <h1 id="sec">00</h1>
+        </div>
+        <div class="time">
+          <button class="start" onclick=" Begin()">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 256 256"
+            >
+              <path
+                fill="currentColor"
+                d="M234.49 111.07L90.41 22.94A20 20 0 0 0 60 39.87v176.26a20 20 0 0 0 30.41 16.93l144.08-88.13a19.82 19.82 0 0 0 0-33.86ZM84 208.85V47.15L216.16 128Z"
+              />
+            </svg>
+          </button>
+
+          <button class="stop" onclick="Stopinterval()">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 16 16"
+            >
+              <path
+                fill="currentColor"
+                d="M6 3.5a.5.5 0 0 1 .5.5v8a.5.5 0 0 1-1 0V4a.5.5 0 0 1 .5-.5zm4 0a.5.5 0 0 1 .5.5v8a.5.5 0 0 1-1 0V4a.5.5 0 0 1 .5-.5z"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script src="../JAVASCRIPT/clock.js"></script>
+  </body>
+</html>
